@@ -25,6 +25,21 @@ A custom-built Tensile Test Machine designed for material testing with precise c
 3. **Cycling Mode**  
    Repeats forward and backward motion for a user-defined number of cycles — suitable for fatigue or hysteresis testing.
 
+
+---
+
+## LED Direction Indicator (Safety & Usability Feature)
+
+To improve usability and prevent mechanical collisions or motor stalls, the machine includes **LED indicators** that show the **current movement direction** and system state:
+
+- **Forward LED**: Lights up when the system is moving forward.
+- **Backward LED**: Lights up when the system is moving backward.
+- In **Discrete Mode**, if the system reaches the far end and has no limit switches, pressing the button again in the same direction could cause a collision or stall the motor.  
+- **The LED prevents this by clearly showing the current position**, helping the user avoid unsafe commands.
+
+### Additional Safety Behavior:
+- After completing all configured cycles (in **Cycling Mode**), **both LEDs will blink for 5 seconds** to indicate completion and alert the user.
+
 ---
 
 ## System Architecture
@@ -33,6 +48,7 @@ A custom-built Tensile Test Machine designed for material testing with precise c
 - **Motor Driver**: Stepper driver with microstepping support
 - **Power Supply**: 24V DC regulated power
 - **User Interface**: Configurable parameters via serial interface or onboard UI
+- **Direction Indicator**: Two status LEDs (forward/backward + completion blink)
 
 ---
 
@@ -44,6 +60,7 @@ A custom-built Tensile Test Machine designed for material testing with precise c
 | Motor Driver         | TB6600  |
 | Stepper Motor        | NEMA23 - 80 kg·cm torque  |
 | Power Supply         | 24V DC                         |
+| LEDs                 | 2x (Forward/Backward indicator)|
 
 ---
 
@@ -62,6 +79,7 @@ A custom-built Tensile Test Machine designed for material testing with precise c
 - Configure parameters through the serial monitor or UI.
 - Power the system using a 24V DC supply.
 - Start the test and the machine will execute the motion profile according to the selected mode.
+- Watch the LED indicators to ensure safe operation and avoid unintended collisions.
 
 ---
 
@@ -82,6 +100,7 @@ A custom-built Tensile Test Machine designed for material testing with precise c
 https://github.com/user-attachments/assets/fbec812b-7db0-4aa1-a88f-8b0b5e9517f5
 
 https://github.com/user-attachments/assets/87650bf9-1efb-4e67-8b14-c8b6a8dca0fa
+
 
 
 
