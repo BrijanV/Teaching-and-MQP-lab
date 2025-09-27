@@ -36,7 +36,7 @@ A custom-built Tensile Test Machine designed for material testing with precise c
 
 ---
 
-## 📦 Components Used
+## Components Used
 
 | Component            | Details                        |
 |----------------------|---------------------------------|
@@ -71,3 +71,15 @@ A custom-built Tensile Test Machine designed for material testing with precise c
 - Durability and fatigue testing
 - Micro-component stretching and loading
 - Custom automation requiring low-speed, high-torque motion
+
+## Images
+
+- Tensile Stress Test Machine
+![ControlBoard1](./Images/ControlBoard_1.jpg)
+![ControlBoard2](./Images/ControlBoard_2.jpg)
+
+
+https://github.com/user-attachments/assets/fbec812b-7db0-4aa1-a88f-8b0b5e9517f5
+https://github.com/user-attachments/assets/87650bf9-1efb-4e67-8b14-c8b6a8dca0fa
+
+
