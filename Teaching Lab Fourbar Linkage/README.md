@@ -57,9 +57,12 @@
 
 - Four-Bar Linkage Mechanism New Control Board
 
-![Controlboard](./Images/Controlboard.jpg)
+![Controlboard](./Images/ControlBoard.jpg)
 
 - Four-Bar Linkage Mechanism
 
 ![MechanicalParts](./Images/MechanicalParts.jpg)
+
+
+
 
